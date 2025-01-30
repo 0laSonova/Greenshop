@@ -29,9 +29,7 @@ a{
     width: 150px;
 
 }
-
-
-.button-login{
+.btn{
     width: 100px;
     height: 35px;
     background-color: #46a358;
@@ -49,7 +47,7 @@ a{
 
 }
 
-.button-login:hover{
+.btn:hover{
     background-color:#91a395;
     cursor: pointer;
     color: #000000;
@@ -92,15 +90,12 @@ a:hover {
     
 }
 
-.banner-button{
+.banner .btn{
     width: 140px;
     height: 40px;
-    background-color: #46a358;
-    border-radius: 5px;
-    color: white;
-    border-style: none;
+    padding-right: 30px;
 }
-.banner-button:hover{
+.banner .btn:hover{
     background-color: white;
     color: #46a358;
     border-style:dotted;
@@ -135,7 +130,7 @@ a:hover {
     margin: 0;
     color: #3D3D3D
 }
-.banner-button{
+.banner .btn{
     margin-top: 44px;
     font-size: 125%;
 }
