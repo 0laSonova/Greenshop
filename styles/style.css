@@ -1,0 +1,171 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 247);
+    font-size: 0;
+}
+
+.header-info{
+    height: 53px;
+    margin-top: 30px;
+}
+
+.header-nav,
+.header-logo,
+.header-button,
+.banner-text,
+.banner-picture{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #3D3D3D
+}
+
+.header-logo{
+    width: 150px;
+
+}
+
+
+.button-login{
+    width: 100px;
+    height: 35px;
+    background-color: #46a358;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.header-button img{
+    position: absolute;
+    padding: 7px 9px;
+    cursor: pointer;
+
+}
+
+.button-login:hover{
+    background-color:#91a395;
+    cursor: pointer;
+    color: #000000;
+    
+    
+}
+
+.header-nav{
+    margin-top: 8px;
+    width: calc(100% - 250px);
+    text-align: center;
+}
+
+.header-nav a{
+    margin: 0 25px;
+    border-bottom: 3px solid;
+    border-color: transparent;
+    padding-bottom: 25px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+a:hover {
+    
+    border-color: #46A358;
+}
+
+.hr_header-info{
+    background-color: #46a358;
+    height: 0.3px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.banner{
+    font-size: 16px;
+    height: 450px;
+    
+}
+
+.banner-button{
+    width: 140px;
+    height: 40px;
+    background-color: #46a358;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+}
+.banner-button:hover{
+    background-color: white;
+    color: #46a358;
+    border-style:dotted;
+    cursor: pointer;
+    
+}
+
+.banner-text{
+    width: 530px;
+    margin-left: 42px;
+    margin-top: 68px;
+    color: #3D3D3D
+}
+
+.banner-text h6{
+    text-transform: uppercase;
+    font-size: 1.00em;
+    margin: 0;
+    color: #3D3D3D
+    
+}
+
+
+
+.banner-text h1{
+    letter-spacing: 0.084em; /* пока не подключили шрифты  */
+    text-transform: uppercase;/* пока не подключили шрифты  */
+    font-size: 3.5em; /* пока не подключили шрифты  */
+    margin: 7px 0 5px 0;
+    color: #3D3D3D
+}
+
+.banner-text-h1word{
+    color: #46A358;
+}
+
+.banner-text p{
+    margin: 0;
+    color: #3D3D3D
+}
+
+
+.banner-button{
+    margin-top: 44px;
+    font-size: 125%;
+}
+
+.banner-pic{
+    float:right;
+}
+
+.banner-pic-min{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 49px;
+    overflow: hidden;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+
+.banner-pic-min:hover {
+    transform: rotate(360deg);
+}
+
+
