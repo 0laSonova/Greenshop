@@ -73,12 +73,13 @@ ul {
   vertical-align: top;
 }
 
-.btn img {
+.btn svg {
   display: inline-block;
   vertical-align: middle;
 }
 .btn a {
   color: #ffffff;
+  display: inline-block;
   vertical-align: middle;
 }
 
