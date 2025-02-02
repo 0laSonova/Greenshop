@@ -1,13 +1,17 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgb(255, 255, 247);
+}
+body {
   font-size: 0;
+}
+
+header {
+  padding-top: 30px;
 }
 
 .header-info {
   height: 53px;
-  margin-top: 30px;
 }
 
 .header-nav,
@@ -16,7 +20,7 @@
 .banner-text,
 .banner-picture {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   font-size: 16px;
 }
 
@@ -29,60 +33,57 @@ ul {
   margin: 0;
 }
 
-.header-logo {
-  width: 150px;
-}
-
 .btn {
+  display: inline-block;
   width: 100px;
   height: 35px;
-  background-color: #46a358;
+  background: #46a358;
+  color: #ffffff;
+  text-align: center;
+  padding: 7px;
+  font-size: 16px;
   border-radius: 5px;
-  color: white;
-  border-style: none;
-  padding-right: 20px;
-  text-align: right;
+  cursor: pointer;
+  vertical-align: top;
 }
 
-.header-button img {
-  position: absolute;
-  padding: 7px 9px;
-  cursor: pointer;
+.btn img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn a {
+  color: #ffffff;
+  vertical-align: middle;
 }
 
 .btn:hover {
-  background-color: #91a395;
-  cursor: pointer;
-  color: #000000;
+  background-color: #d1d1d1;
 }
 
 .header-nav {
-  margin-top: 8px;
   width: calc(100% - 250px);
   text-align: center;
 }
 
-.header-nav a {
-  margin: 0 25px;
+.header-nav a.active {
   border-bottom: 3px solid;
-  border-color: transparent;
-  padding-bottom: 25px;
+  border-color: #46a358;
+  padding-bottom: 23px;
 }
 
 .header-nav_list li {
+  margin: 0 25px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .active {
   font-weight: bold;
-}
-
-a:hover {
   border-color: #46a358;
 }
 
 .hr_header-info {
-  background-color: #46a358;
+  background-color: #709978;
   height: 0.3px;
   margin: 0;
   margin-bottom: 12px;
@@ -92,20 +93,17 @@ a:hover {
   font-size: 16px;
   height: 450px;
 }
-
 .banner .btn {
   width: 140px;
-  height: 40px;
-  padding-right: 30px;
+  margin-top: 44px;
 }
-.banner .btn:hover {
-  background-color: white;
+div.btn:hover {
   color: #46a358;
-  border-style: dotted;
-  cursor: pointer;
 }
+
 .banner-text {
-  width: 530px;
+  vertical-align: top;
+  width: 647px;
   margin-left: 42px;
   margin-top: 68px;
   color: #3d3d3d;
@@ -116,11 +114,10 @@ a:hover {
   margin: 0;
   color: #3d3d3d;
 }
-
 .banner-text h1 {
-  letter-spacing: 0.084em; /* пока не подключили шрифты  */
-  text-transform: uppercase; /* пока не подключили шрифты  */
-  font-size: 3.5em; /* пока не подключили шрифты  */
+  letter-spacing: 0.084em; /* fonts haven't been connected yet  */
+  text-transform: uppercase; /* fonts haven't been connected yet  */
+  font-size: 3.5em; /* fonts haven't been connected yet  */
   margin: 7px 0 5px 0;
   color: #3d3d3d;
 }
@@ -131,18 +128,13 @@ a:hover {
   margin: 0;
   color: #3d3d3d;
 }
-.banner .btn {
-  margin-top: 44px;
-  font-size: 125%;
-}
 .banner-pic {
-  float: right;
+  display: inline-block;
 }
 .banner-pic-min {
   width: 135px;
-  height: 135px;
   position: absolute;
-  margin-top: 295px;
+  margin-top: 309px;
   margin-left: 49px;
   overflow: hidden;
   transition: all 0.7s ease;
