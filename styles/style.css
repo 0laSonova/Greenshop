@@ -1,9 +1,35 @@
+@font-face {
+  font-family: "latoregular";
+  src: url("../fonts/lato-regular-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "latobold";
+  src: url("../fonts/lato-bold-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "latoblack";
+  src: url("../fonts/lato-black-webfont.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 body {
-  font-size: 0;
+  font-family: "latoregular";
+  font-weight: 400;
 }
 
 header {
@@ -35,7 +61,7 @@ ul {
 
 .btn {
   display: inline-block;
-  width: 100px;
+  width: 93px;
   height: 35px;
   background: #46a358;
   color: #ffffff;
@@ -66,6 +92,9 @@ ul {
 }
 
 .header-nav a.active {
+  font-family: "latobold";
+  font-weight: 900;
+
   border-bottom: 3px solid;
   border-color: #46a358;
   padding-bottom: 23px;
@@ -75,11 +104,6 @@ ul {
   margin: 0 25px;
   display: inline-block;
   vertical-align: middle;
-}
-
-.active {
-  font-weight: bold;
-  border-color: #46a358;
 }
 
 .hr_header-info {
@@ -104,42 +128,37 @@ div.btn:hover {
 .banner-text {
   vertical-align: top;
   width: 647px;
-  margin-left: 42px;
-  margin-top: 68px;
+  padding-left: 42px;
+  padding-top: 68px;
   color: #3d3d3d;
 }
 .banner-text h6 {
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 14px;
   margin: 0;
   color: #3d3d3d;
 }
 .banner-text h1 {
-  letter-spacing: 0.084em; /* fonts haven't been connected yet  */
-  text-transform: uppercase; /* fonts haven't been connected yet  */
-  font-size: 3.5em; /* fonts haven't been connected yet  */
+  font-family: "latoblack";
+  font-weight: 900;
+  font-size: 70px;
+  text-transform: uppercase;
   margin: 7px 0 5px 0;
   color: #3d3d3d;
 }
 .banner-text-h1word {
   color: #46a358;
 }
+
 .banner-text p {
+  font-family: "latregular";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
   margin: 0;
   color: #3d3d3d;
+  overflow: auto;
 }
 .banner-pic {
   display: inline-block;
-}
-.banner-pic-min {
-  width: 135px;
-  position: absolute;
-  margin-top: 309px;
-  margin-left: 49px;
-  overflow: hidden;
-  transition: all 0.7s ease;
-  cursor: pointer;
-}
-.banner-pic-min:hover {
-  transform: rotate(360deg);
 }
