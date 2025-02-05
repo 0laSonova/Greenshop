@@ -3,180 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GreenShop</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body class="container">
-    <aside class="sidebar">
-      <div class="sidebar_list">
-        <p>Categories</p>
-        <ul>
-          <li><a class="active" href="">House Plants</a></li>
-          <li><a href="">Potter Plants</a></li>
-          <li><a href="">Seeds</a></li>
-          <li><a href="">Small Plants</a></li>
-          <li><a href="">Big Plants</a></li>
-          <li><a href="">Succulents</a></li>
-          <li><a href="">Trerrariums</a></li>
-          <li><a href="">Gardening</a></li>
-          <li><a href="">Accessories</a></li>
-        </ul>
-      </div>
-      <span>
-        <a href="#"><img src="images/aside-banner.png" alt="" /></a>
-      </span>
-    </aside>
-    <main class="content">
-      <div>
-        <div class="head-nav">
-          <div class="head-nav-left">
-            <a class="active" href="">All Plants</a>
-            <a href="">New Arrivals</a>
-            <a href="">Sale</a>
-          </div>
-          <div class="head-nav-right">
-            <span>Short by:</span>
-            <div class="filter">
-              <ul>
-                <li><a>Default sorting</a></li>
-              </ul>
-              <a
-                ><svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12.6667 5.66669L8.00004 10.3334L3.33337 5.66669"
-                    stroke="#3D3D3D"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+  <body>
+    <header class="container">
+      <div class="header-info">
+        <div class="header-logo">
+          <a href="#">
+            <img src="images/logo-greenshop.svg" alt="logo-greenshop" />
+          </a>
         </div>
-        <div class="card-block">
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="pic_plant"
-                src="images/image-1.png"
-                alt="Barberton_Daisy"
-            /></a>
-            <a href="#" class="name_plant">Barberton Daisy</a>
-            <p class="price_plant">$119.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-2.png"
-                alt="Angel-Wing-Begonia"
-            /></a>
-            <a href="#" class="name_plant">Angel Wing Begonia</a>
-            <p class="price_plant">$169.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-3.png"
-                alt="African-Violet"
-            /></a>
-            <a href="#" class="name_plant">African Violet</a>
-            <p class="price_plant">$199.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-4.png"
-                alt="Beach-Spider Lily"
-            /></a>
-            <a href="#" class="name_plant">Beach Spider Lily</a>
-            <p class="price_plant">$129.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-5.png"
-                alt="Blushing-Bromeliad"
-            /></a>
-            <a href="#" class="name_plant">Blushing Bromeliad</a>
-            <p class="price_plant">$139.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-6.png"
-                alt="Aluminum-Plant"
-            /></a>
-            <a href="#" class="name_plant">Aluminum Plant</a>
-            <p class="price_plant">$179.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-7.png"
-                alt="bird-Nest-Fern"
-            /></a>
-            <a href="#" class="name_plant">Bird's Nest Fern</a>
-            <p class="price_plant">$99.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-8.png"
-                alt="Broadleaf-Lady-Palm"
-            /></a>
-            <a href="#" class="name_plant">Broadleaf Lady Palm</a>
-            <p class="price_plant">$59.00</p>
-          </div>
-          <div class="card-product">
-            <a href="#"
-              ><img
-                class="name_plant"
-                src="images/image-9.png"
-                alt="Chinese=Evergreen"
-            /></a>
-            <a href="#" class="name_plant">Chinese Evergreen</a>
-            <p class="price_plant">$39.00</p>
-          </div>
+        <nav class="header-nav">
+          <ul class="header-nav_list">
+            <li>
+              <a class="active" href="greenshop.html" target="_blank">Home</a>
+            </li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Plant Care</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </nav>
+        <div class="btn">
+          <img src="images/logout.svg" alt="button-login" />
+          <a href="/registration.html" class="btn-logout">Login</a>
         </div>
       </div>
-      <div class="pages">
-        <ul class="pages_list">
-          <li class="active_page"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li>
-            <a href="#"><svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"><path
-                  d="M1.375 0.75C1.375 0.75 6.625 3.858 6.625 6C6.625 8.14125 1.375 11.25 1.375 11.25"
-                  stroke="#fff"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                </svg>
-                </a>
-          </li>
-        </ul>
-      </div>
-    </main>
+      <hr class="hr_header-info" />
+    </header>
   </body>
 </html>
