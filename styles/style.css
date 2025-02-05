@@ -1,18 +1,18 @@
 @font-face {
   font-family: "CeraPro-Regular";
-  src: url("../fonts/CeraPro-Regular.woff2") format("woff2");
+  src: url("/styles/fonts/CeraPro-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "CeraPro-Bold";
-  src: url("../fonts/CeraPro-Bold.woff2") format("woff2");
+  src: url("/styles/fonts/CeraPro-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "CeraPro-Black";
-  src: url("../fonts/CeraPro-Black.woff2") format("woff2");
+  src: url("/styles/fonts/CeraPro-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
@@ -236,11 +236,11 @@ a {
   margin-bottom: 98px;
 }
 .card-product a {
-  font-family: "latobold";
+  font-family: "CeraPro-Bold";
   font-size: 16px;
 }
 .card-product .price_plant {
-  font-family: "latobold";
+  font-family: "CeraPro-Bold";
   font-weight: 700;
   font-size: 18px;
   margin-top: 6px;
