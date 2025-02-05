@@ -1,25 +1,20 @@
 @font-face {
-  font-family: "latoregular";
-  src: url("../fonts/lato-regular-webfont.woff2") format("woff2");
+  font-family: "CeraPro-Regular";
+  src: url("../fonts/CeraPro-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
-
 @font-face {
-  font-family: "latobold";
-  src: url("../fonts/lato-bold-webfont.woff2") format("woff2");
+  font-family: "CeraPro-Bold";
+  src: url("../fonts/CeraPro-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
-
 @font-face {
-  font-family: "latoblack";
-  src: url("../fonts/lato-black-webfont.woff2") format("woff2");
+  font-family: "CeraPro-Black";
+  src: url("../fonts/CeraPro-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
-  font-display: swap;
 }
 
 .container {
@@ -28,7 +23,7 @@
 }
 
 body {
-  font-family: "latoregular";
+  font-family: "CeraPro-Regular";
   font-weight: 400;
 }
 
@@ -37,7 +32,7 @@ header {
 }
 
 .header-info {
-  height: 53px;
+  margin-bottom: 16px;
 }
 
 .header-nav,
@@ -61,8 +56,7 @@ ul {
 
 .btn {
   display: inline-block;
-  width: 93px;
-  height: 35px;
+  width: 90px;
   background: #46a358;
   color: #ffffff;
   text-align: center;
@@ -93,8 +87,8 @@ ul {
 }
 
 .header-nav a.active {
-  font-family: "latobold";
-  font-weight: 900;
+  font-family: "CeraPro-Bold";
+  font-weight: 700;
 
   border-bottom: 3px solid;
   border-color: #46a358;
@@ -119,8 +113,10 @@ ul {
   height: 450px;
 }
 .banner .btn {
+  font-family: "CeraPro-Bold";
   width: 140px;
   margin-top: 44px;
+  text-transform: uppercase;
 }
 div.btn:hover {
   color: #46a358;
@@ -140,7 +136,7 @@ div.btn:hover {
   color: #3d3d3d;
 }
 .banner-text h1 {
-  font-family: "latoblack";
+  font-family: "CeraPro-Black";
   font-weight: 900;
   font-size: 70px;
   text-transform: uppercase;
@@ -152,13 +148,13 @@ div.btn:hover {
 }
 
 .banner-text p {
-  font-family: "latregular";
+  font-family: "CeraPro-Regular";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   margin: 0;
   color: #3d3d3d;
-  overflow: auto;
+  line-height: 24px;
 }
 .banner-pic {
   display: inline-block;
